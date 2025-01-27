@@ -1,5 +1,3 @@
-Got it! Here's an updated version of the README that includes CloudWatch as the focus instead of SQS and SNS:
-
 ````markdown
 # CDK TypeScript Project - File Sharing App
 
