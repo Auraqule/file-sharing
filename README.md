@@ -1,3 +1,5 @@
+Got it! Here's an updated version of the README that includes CloudWatch as the focus instead of SQS and SNS:
+
 ````markdown
 # CDK TypeScript Project - File Sharing App
 
@@ -68,10 +70,22 @@ AWS_ACCOUNT=123456789012
    ```
 
 3. Deploy the stack: ✅ ensure to build before deploy
-
    ```bash
    npm run deploy
    ```
+   After successful deployment, you'll get the following Outputs:
+
+```bash
+Outputs Sample:
+
+FileSharingStack.ApiKey = file-sharing-api-key-FileSharingStack-XXX
+FileSharingStack.ApiUrl = https://XXX.execute-api.us-east-1.amazonaws.com/prod/
+FileSharingStack.BucketName = file-sharing-bucket-XXX-us-east-1
+FileSharingStack.CloudFrontDomain = d29jn0q6bleXXX.cloudfront.net
+
+
+🟢 Get your API KEY & API URL From this here
+```
 
 4. Destroy the stack (optional):
    ```bash
